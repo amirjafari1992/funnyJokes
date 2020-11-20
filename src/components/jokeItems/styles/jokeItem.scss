@@ -1,0 +1,28 @@
+@import '../../../scss/colors.scss';
+
+.c-jokeItem {
+    &:not(:last-child) {
+        border-bottom: 1px solid $silver;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+    &__text {
+        margin        : 0;
+    }
+
+    &__image {}
+
+    .text-wrap {
+        width: 80%;
+    }
+
+    svg {
+        cursor    : pointer;
+        transition: all ease 1s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}

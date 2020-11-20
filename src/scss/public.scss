@@ -1,0 +1,30 @@
+@import './colors.scss';
+
+body {
+    background-color: $silver;
+    position        : relative;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.c-notFound {
+    background: $white;
+    min-height: 100vh;
+
+    .notFoundIMG {
+        width         : 90%;
+        max-width     : 800px;
+        display       : block;
+        margin        : 0 auto;
+        pointer-events: none;
+    }
+}
+
+.pagination {
+    li {
+        cursor: pointer;
+    }
+}
